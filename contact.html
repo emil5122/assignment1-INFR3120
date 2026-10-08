@@ -1,0 +1,49 @@
+<!-- Emil Murphy 101015144 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emil Murphy Portfolio - Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>Emil Murphy - Contact</h3>
+            <a href="home.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="projects.html">Projects</a>
+            <a href="contact.html"><b>Contact</b></a> <!--Bold because we are currently here -->
+        </nav>
+    </header>
+    <article>
+        <!-- Form for contact information-->
+        <section> <!-- TODO: figure out action="" -->
+            <form method="post" enctype="text/plain" name="ContactForm">
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" size="32">
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" size="32">
+                </p>
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" cols="40" rows="6"></textarea>
+                </p>
+                <p>
+                    <label for="nobots">What color is grass? (No robots allowed)</label><br> <!-- anti bot, correct answer is green -->
+                    <input type="text" name="nobots" size="32">
+                </p>
+                <p><input type="submit" value="Submit Contact Information"/></p>
+                <p><input type="reset" value="Reset Contact Information"/></p>
+            </form>
+        </section>
+    </article>
+    <footer>
+        <P>© 2026 Emil Murphy</P>
+    </footer>
+    
+</body>
+</html>
