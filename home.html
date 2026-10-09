@@ -3,8 +3,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emil Murphy Portfolio - Home</title>
+
+      <!-- Style Sheet Importing based on screen size -->
+      <meta name="viewport" content="width=device-width"> <!-- Prevent distortion of screen size -->
+      <!-- Screen Style Sheet (Default)-->
+      <link href="screen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+      <!-- Tablet style sheet-->
+      <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+      <!-- Phone style sheet-->
+      <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+
+      <!-- Import Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,9 +31,13 @@
     </header>
     <article>
         <section>
-            <p>
-                Hello. This is the home page. 
-            </p>
+            <div id="homediv">
+                <h2>Home</h2>
+                <p>
+                    Hello. This is the home page. <br>
+                    Use the navigation bar to navigate to other pages.
+                </p>
+            </div>
         </section>
     </article>
     <footer>
