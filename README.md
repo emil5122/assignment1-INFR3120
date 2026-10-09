@@ -1,5 +1,8 @@
 # Emil Murphy Portfolio Assignement
 
+# Github Link: https://github.com/emil5122/assignment1-INFR3120
+# Github Page: https://emil5122.github.io/assignment1-INFR3120/index.html
+
 ## External Code
 Roboto Font Import Code, Google Fonts
 
