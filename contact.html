@@ -31,27 +31,27 @@
     </header>
     <article>
         <!-- Form for contact information-->
+        <h2>Contact Form</h2>
         <section> 
-            <h2>Contact Form</h2>
-            <form action=mailto:emil.murphy@ontariotechu.net ?subject=Signup method="post" enctype="text/plain" name="ContactForm"> <!--Opens mail client and prepares an email to send to my address. -->
+            <form action=mailto:emil.murphy@ontariotechu.net method="post" enctype="text/plain" name="ContactForm"> <!--Opens mail client and prepares an email to send to my address. -->
                 <p>
                     <label for="name">Name *</label><br>
-                    <input type="text" name="name" size="32" required>  <!-- * because required -->
+                    <input id="name" type="text" name="name" size="32" required>  <!-- * because required -->
                 </p>
                 <p>
                     <label for="email">Email *</label><br>
-                    <input type="email" name="email" size="32" required> <!-- * because required -->
+                    <input id="email" type="email" name="email" size="32" required> <!-- * because required -->
                 </p>
                 <p>
                     <label for="phone">Phone</label><br>
-                    <input type="tel" name="phone" size="32">  <!-- Phone is not really required so im not requiring it. -->
+                    <input id="phone" type="tel" name="phone" size="32">  <!-- Phone is not really required so im not requiring it. -->
                 </p>
                 <p>
                     <label for="message">Message *</label><br>
-                    <textarea minlength="1" name="message" cols="40" rows="6" required></textarea> <!-- * because required, minlength to avoid short/small messages -->
+                    <textarea id="message" minlength="1" name="message" cols="40" rows="6" required></textarea> <!-- * because required, minlength to avoid short/small messages -->
                 </p>
-                <p><input type="submit" value="Submit Contact Information"/></p>
-                <p><input type="reset" value="Reset Contact Information"/></p>
+                <p><input type="submit" value="Submit Contact Information"></p>
+                <p><input type="reset" value="Reset Contact Information"></p>
             </form>
         </section>
     </article>
